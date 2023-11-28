@@ -21,8 +21,6 @@ import pe.com.ventas.modelo.Cliente;
 @RequestMapping("/api")
 //@CrossOrigin(origins = "http://localhost:4200")
 public class ClienteControlador {
-
-
 	
 	@Autowired
 	private IClienteServicio clienteService;
